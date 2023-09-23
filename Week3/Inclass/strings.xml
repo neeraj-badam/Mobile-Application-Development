@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Week4Fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="operation_label">?</string>
+    <string name="button_pick_operation">Pick Operation</string>
+    <string name="calculate_label">Calculate</string>
+    <string name="clear_label">Clear</string>
+    <string name="operation">Operation:</string>
+    <string name="add_label">Add</string>
+    <string name="subtract_label">Subtract</string>
+    <string name="multiply_label">Multiply</string>
+    <string name="divide_label">Divide</string>
+    <string name="select_label">Select</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="close_label">Close</string>
+</resources>
