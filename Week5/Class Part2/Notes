@@ -1,0 +1,35 @@
+Video : Managing Simple ListView
+=> Created simple listView with String colors and handle them when an item is clicked
+
+Video : Managing Simple ListView of Objects
+=> How to even display list of Objects and display
+
+Video : Updating ListView Data
+=> If we want to add, remove, update the listView
+=> If we update the list, then we need to notify the adapter. So, it can change the view on the screen. Otherwise we can directly add or remove from the adapter.
+
+Video : Extending ListView's ArrayAdapter
+=> If we want to display custom Adapter, which means we want to display each row by using the layout that we created.
+=> Custom Adapter
+
+Video : View Holder Pattern and Extending ListView's ArrayAdapter
+=> Instead of setting text or something using findViewById every time, we create a class named as ViewHolder, and create variables of the TextView or smtng, then we'll use it for holding the instances. Here we are calling findViewById only once and accessing the instances multiple times. So, this will enhance performance.
+
+Video : Using RecyclerViews
+=> This is similar to ListView, but it's kind of different from ListView Adapter, Here Adapter & Holder class should be extended. 
+=> RecyclerView makes it easy to efficiently display large sets of data. You supply the data and define how each item looks, and the RecyclerView library dynamically creates the elements when they're needed. As the name implies, RecyclerView recycles those individual elements.
+
+Video : Using CardViews
+=> This is the use case of using RecyclerViews inside a card, where it doesn't have any borders. It can be used in ListViews as well, but we should display accordingly.
+
+Video : Adding Buttons in RecyclerView Row Items
+=> Adding buttons to the RecyclerView and handling the button, similar to clicking a view
+
+Video : Passing Data from RecyclerView Adapter to Activity or Fragment
+=> Using Interface and implementing them in MainActivity
+
+Video : Using View Binding in ListView Adapters
+=> Using binding inside ListViews.
+
+Video : Using View Binding in RecyclerView Adapters
+=> Using binding inside Recycler views
