@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Week4Assignment3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_label">Name:</string>
+    <string name="name_hint_text">Enter your Name</string>
+    <string name="age_label">Age:</string>
+    <string name="age_hint_label">Enter your Age</string>
+    <string name="how_you_feeling">How you feeling:</string>
+    <string name="tell_us_button_label">Tell Us</string>
+    <string name="submit_button_label">Submit</string>
+    <string name="how_are_you_feeling_question">How are you feeling ?</string>
+    <string name="submit_label">Submit</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="two_value_default">2</string>
+    <string name="back_label">Back</string>
+</resources>

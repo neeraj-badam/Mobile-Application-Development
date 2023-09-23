@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment">
+    <TextView
+        android:id="@+id/textViewProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/name_label"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewProfileAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/age_label"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfileName" />
+
+    <TextView
+        android:id="@+id/textViewHowYouFeeling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/how_you_feeling"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfileAge" />
+
+    <TextView
+        android:id="@+id/textViewShowProfileName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Name"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewProfileName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewProfileName"
+        app:layout_constraintTop_toTopOf="@+id/textViewProfileName" />
+
+    <TextView
+        android:id="@+id/textViewShowProfileAge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewProfileAge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textViewShowProfileName"
+        app:layout_constraintTop_toTopOf="@+id/textViewProfileAge" />
+
+    <ImageView
+        android:id="@+id/profileSelectedMood"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewHowYouFeeling"
+        app:layout_constraintStart_toEndOf="@+id/textViewHowYouFeeling"
+        app:layout_constraintTop_toTopOf="@+id/textViewHowYouFeeling"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <TextView
+        android:id="@+id/textViewSelectedMoodText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewHowYouFeeling"
+        app:layout_constraintStart_toEndOf="@+id/profileSelectedMood"
+        app:layout_constraintTop_toTopOf="@+id/textViewHowYouFeeling"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textViewShowTotalOutOfFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/profileSelectedMood"
+        app:layout_constraintStart_toStartOf="@+id/profileSelectedMood"
+        app:layout_constraintTop_toBottomOf="@+id/profileSelectedMood" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/back_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewShowTotalOutOfFour" />
+</androidx.constraintlayout.widget.ConstraintLayout>
